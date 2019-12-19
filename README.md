@@ -33,7 +33,9 @@ We call them non-pivot features. There is also word “happy” which occur in b
 
 SCL align the pivot and non-pivot features extracted from the unlabelled source and target data using the weight vectors. 
 For example, the pivot feature “happy” belongs to the class “joy”. If it often occur with particular non-pivot “burdock forest”, then it is highly likely that they both correspond with each other and therefore they get higher weight. 
-After adding the weight vectors to the features in training and testing sets, we use labelled data from source domain, which help to build a good classifier for the target (please read StructuralCorrespondenceLearning_Explanation.pdf for more explanations).
+After adding the weight vectors to the features in training and testing sets, we use labelled data from source domain, which help to build a good classifier for the target.
+
+(Please read StructuralCorrespondenceLearning_Explanation.pdf for more explanations)
 
 We follow the setting of Blitzer et al. (2007) and use four different domains for our experiments: 
 - emotional events descriptions, 
