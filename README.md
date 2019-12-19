@@ -29,7 +29,7 @@ To demonstrate an example for SCL, we consider two sentences from different doma
 “And the rain fell upon the burdock-leaves, to play the drum for them, and the sun shone to paint colors on the burdock forest for them, and they were very happy; the whole family were entirely and perfectly happy.”
 
 The words like “passed the examination” from personal events or “burdock forest” from fairy tales are domain-specific. 
-We call them non-pivot features. There is also word “happy” which occur in both sentences and have in each domain the same meaning. We call them pivot features. If these both non-pivot features have a high correlation with the emotion “joy” and low correlation, for example, with emotion “sad” than they can be aligned (please read SCL_explanation.pdf for more explanations)
+We call them non-pivot features. There is also word “happy” which occur in both sentences and have in each domain the same meaning. We call them pivot features. If these both non-pivot features have a high correlation with the emotion “joy” and low correlation, for example, with emotion “sad” than they can be aligned (please read SCL_EXPLANATION.pdf for more explanations)
 
 SCL align the pivot and non-pivot features extracted from the unlabelled source and target data using the weight vectors. 
 For example, the pivot feature “happy” belongs to the class “joy”. If it often occur with particular non-pivot “burdock forest”, then it is highly likely that they both correspond with each other and therefore they get higher weight. 
